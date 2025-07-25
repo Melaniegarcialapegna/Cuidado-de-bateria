@@ -1,8 +1,9 @@
 # Script para cuidar bateria:D
 
 ### Requisitos:
-``sudo apt install libnotify-bin``
 
+        sudo apt install libnotify-bin
+        sudo apt install libcanberra-gtk3-module
 
 ### Pasos a seguir para utilizar el script:
 
@@ -27,14 +28,15 @@
 
         */3 * * * * DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /home/tu_usuario/scripts/bateria.sh
 
-    Obs: verifica que tu UID sea 1000 con ``echo $UID``
+    Obs: verifica que tu UID sea 1000 con ``echo $UID``.
+    En caso de no serlo, tambien debe modificarse en las lineas *4* y *5* del script.
 
     Esto hara que el script ``bateria.sh`` se ejecute cada **3** minutos.
 
    En caso de querer disminuir o aumentar el tiempo simplemente reemplaza el 3 con el tiempo deseado :)
 
 ### Modificaciones posibles:
-Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 12 del script.
+Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 16 del script.
 
 
 
