@@ -1,4 +1,5 @@
-# Script para cuidar bateria:D
+# Script para cuidar bateria en Linux:D
+Envia notificación cuando la computadora se esta cargando y supera cierto porcentaje.
 
 ### Requisitos:
 
