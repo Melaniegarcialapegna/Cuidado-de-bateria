@@ -29,7 +29,8 @@
 
     Obs: verifica que tu UID sea 1000 con ``echo $UID``
 
-    Esto hara que el script ``bateria.sh`` se ejecute cada **5** minutos, en caso de querer disminuir o aumentar el tiempo simplemente reemplaza el 5 con el tiempo deseado :)
+    Esto hara que el script ``bateria.sh`` se ejecute cada **5** minutos.
+    En caso de querer disminuir o aumentar el tiempo simplemente reemplaza el 5 con el tiempo deseado :)
 
 ### Modificaciones posibles:
 Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 14 del script.
