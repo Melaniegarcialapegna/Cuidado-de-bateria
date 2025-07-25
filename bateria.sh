@@ -1,9 +1,7 @@
-
 #!/bin/bash
 
 #Obtener nombre dispositivo bateria
 NOMBRE=$(upower -e | grep BAT)
-
 #Extraer porcentaje actual de bateria
 PORCENTAJE=$(upower -i "$NOMBRE" | grep -E "percentage" | awk '{print $2}' | tr -d '%')
 
