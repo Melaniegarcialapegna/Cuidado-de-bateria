@@ -10,7 +10,7 @@
     
         /home/tu_usuario/scripts/bateria.sh
 
-2. Darle permisos:
+2. Otorga permisos de ejecucion al archivo:
 
         chmod +x /home/tu_usuario/scripts/bateria.sh
 
