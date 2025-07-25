@@ -29,7 +29,7 @@
 
     Obs: verifica que tu UID sea 1000 con ``echo $UID``
 
-    Esto hara que el script ``bateria.sh`` se ejecute cada **5** minutos.
+    Esto hara que el script ``bateria.sh`` se ejecute cada **3** minutos.
 
    En caso de querer disminuir o aumentar el tiempo simplemente reemplaza el 3 con el tiempo deseado :)
 
