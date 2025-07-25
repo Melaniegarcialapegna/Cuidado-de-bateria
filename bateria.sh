@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 #Obtener nombre dispositivo bateria
