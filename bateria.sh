@@ -9,7 +9,7 @@ NOMBRE=$(upower -e | grep BAT)
 #Extraer porcentaje actual de bateria
 PORCENTAJE=$(upower -i "$NOMBRE" | grep -E "percentage" | awk '{print $2}' | tr -d '%')
 
-#Chequea que este en estado de carga
+#Se guarda estado de bateria
 STATE=$(upower -i "$NOMBRE" | grep -E "state" | awk '{print $2}')
 
 #Si se esta cargando y ademas la bateria es mayor o igual a 78 -> envia notificacion
