@@ -34,7 +34,7 @@
    En caso de querer disminuir o aumentar el tiempo simplemente reemplaza el 3 con el tiempo deseado :)
 
 ### Modificaciones posibles:
-Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 14 del script.
+Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 12 del script.
 
 
 
