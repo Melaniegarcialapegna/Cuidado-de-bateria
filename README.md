@@ -38,7 +38,7 @@ Envia notificación cuando la computadora se esta cargando y supera cierto porce
     En caso de no serlo, tambien debe modificarse en las lineas *4* y *5* del script.
 
 ### Modificaciones posibles:
-Yo lo puse para que me avise cuando llega al 78% pero esto puede modificarse simplemente reemplazando el 78 en la linea 16 del script.
+Yo lo puse para que me avise cuando llega al 80% pero esto puede modificarse simplemente reemplazando el 80 en la linea 16 del script.
 
 
 
